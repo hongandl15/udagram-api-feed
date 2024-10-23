@@ -16,7 +16,6 @@ after_success:
   # Push both the latest and the commit-specific tags to Docker Hub
   - docker push $DOCKER_USERNAME/udagram-api-feed
 
-# Only deploy from the main branch
 branches:
   only:
     - main
